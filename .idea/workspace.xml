@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UnisaBakery:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="finale" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/model/OrdineDolci/OrdineDolciDAO.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="1xDMB6WE2CPWsZgPz0LKmBPP2SK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProgettoTSW" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30804598" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\webapp\css" />
+      <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\java\model" />
+      <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\webapp" />
+      <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\webapp\fonts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+      <recent name="model.Dolci" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.434" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.434" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/UnisaBakery_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="UnisaBakery:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/UnisaBakery_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="aa8b396f-70af-4071-ab08-df1dd635a063" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56325" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="UnisaBakery:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="" />
+      <created>1629885069136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629885069136</updated>
+      <workItem from="1629885070308" duration="1592000" />
+      <workItem from="1629887137525" duration="128000" />
+      <workItem from="1629887303735" duration="3810000" />
+      <workItem from="1629893086014" duration="458000" />
+      <workItem from="1629893664852" duration="54707000" />
+      <workItem from="1630749134306" duration="16655000" />
+      <workItem from="1630772463959" duration="1048000" />
+      <workItem from="1630773541320" duration="4880000" />
+      <workItem from="1630784205568" duration="2324000" />
+      <workItem from="1630787020758" duration="7596000" />
+      <workItem from="1630832107709" duration="785000" />
+      <workItem from="1630832925895" duration="459000" />
+      <workItem from="1630834111590" duration="5208000" />
+      <workItem from="1630918792525" duration="1927000" />
+      <workItem from="1630920831014" duration="18000000" />
+      <workItem from="1631280919809" duration="6859000" />
+      <workItem from="1631290850413" duration="206000" />
+      <workItem from="1631291161090" duration="7961000" />
+      <workItem from="1631343162944" duration="6389000" />
+      <workItem from="1631349633433" duration="10117000" />
+      <workItem from="1631371636562" duration="3674000" />
+      <workItem from="1631375388957" duration="3539000" />
+      <workItem from="1631379138557" duration="6576000" />
+      <workItem from="1631405382157" duration="3065000" />
+      <workItem from="1631408576800" duration="117000" />
+      <workItem from="1631408735972" duration="3541000" />
+      <workItem from="1631436165955" duration="10298000" />
+      <workItem from="1631516395879" duration="5196000" />
+      <workItem from="1631521679333" duration="22534000" />
+      <workItem from="1631551646330" duration="15949000" />
+      <workItem from="1631607031110" duration="3953000" />
+      <workItem from="1631627171633" duration="16437000" />
+      <workItem from="1631695001813" duration="19303000" />
+      <workItem from="1631776239548" duration="4824000" />
+      <workItem from="1631782272460" duration="9737000" />
+      <workItem from="1631804280109" duration="11831000" />
+      <workItem from="1631885064923" duration="1137000" />
+      <workItem from="1631905954119" duration="3047000" />
+      <workItem from="1631955953244" duration="7320000" />
+      <workItem from="1632074654718" duration="2899000" />
+      <workItem from="1632077753382" duration="187000" />
+      <workItem from="1632080828031" duration="563000" />
+      <workItem from="1632085695937" duration="164000" />
+      <workItem from="1632121468353" duration="5510000" />
+      <workItem from="1632257287446" duration="5000" />
+      <workItem from="1632769210893" duration="603000" />
+      <workItem from="1634814977454" duration="307000" />
+      <workItem from="1636488443522" duration="6000" />
+      <workItem from="1638615830062" duration="38000" />
+      <workItem from="1638617879575" duration="34000" />
+      <workItem from="1641489219748" duration="28000" />
+      <workItem from="1642247114894" duration="905000" />
+      <workItem from="1642262891279" duration="196000" />
+      <workItem from="1642263107725" duration="2775000" />
+      <workItem from="1642697076450" duration="707000" />
+      <workItem from="1642697962535" duration="22000" />
+      <workItem from="1651915975399" duration="1842000" />
+      <workItem from="1655751801862" duration="2199000" />
+      <workItem from="1655841091881" duration="605000" />
+      <workItem from="1656749676938" duration="3375000" />
+      <workItem from="1656923528039" duration="130000" />
+      <workItem from="1657025022087" duration="508000" />
+      <workItem from="1667425007761" duration="304000" />
+      <workItem from="1676624153016" duration="254000" />
+      <workItem from="1676624763665" duration="9893000" />
+      <workItem from="1676651787983" duration="1130000" />
+      <workItem from="1676653122320" duration="932000" />
+      <workItem from="1676714921960" duration="229000" />
+      <workItem from="1676715796986" duration="12000" />
+      <workItem from="1676716204199" duration="359000" />
+      <workItem from="1676716801420" duration="86000" />
+      <workItem from="1676717205545" duration="762000" />
+      <workItem from="1676718047769" duration="1962000" />
+    </task>
+    <task id="LOCAL-00001" summary="Prima condivisione">
+      <created>1630622008038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630622008038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pagina e servlet Login (da completare)&#10;Home amministratore (da completare)&#10;home loggato (da completare)&#10;jsp e servlet register (da rivedere da errori)">
+      <created>1630830582138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630830582138</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pagina e servlet Login (da completare)&#10;Home amministratore (da completare)&#10;home loggato (da completare)&#10;jsp e servlet register (da rivedere da errori)">
+      <created>1630918609767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630918609767</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pagina e servlet Login (da completare)&#10;Home amministratore (da completare)&#10;home loggato (da completare)&#10;jsp e servlet register (da rivedere da errori)">
+      <created>1630918629526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630918629526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="prova1">
+      <created>1630921229846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630921229846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finale">
+      <created>1676718841215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676718841215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Prima condivisione" />
+    <MESSAGE value="Pagina e servlet Login (da completare)&#10;Home amministratore (da completare)&#10;home loggato (da completare)&#10;jsp e servlet register (da rivedere da errori)" />
+    <MESSAGE value="prova1" />
+    <MESSAGE value="finale" />
+    <option name="LAST_COMMIT_MESSAGE" value="finale" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
