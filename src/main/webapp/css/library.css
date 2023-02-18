@@ -1,0 +1,202 @@
+@font-face{
+    font-family:'Arsenal';
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Arsenal-Bold.otf");
+}
+
+@font-face{   font-family:'Arsenal';
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/Arsenal-BoldItalic.otf");
+
+
+}
+
+@font-face{
+    font-family:'Arsenal';
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/Arsenal-Italic.otf");
+
+
+
+}
+@font-face {
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Arsenal-Regular.otf");
+}
+:root {
+    font-family: "Arsenal",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: clamp(16px,2vw,24px);  /*2vw indica il 2% della viewport,diviso 100 per 2, 6px. definisce un valore min,max e predefinito*/
+    --white:   #FFFFFF;
+    --castagnochiaro:#DDADAF;
+    --albicocca: #fbceb1;
+    --azzurrofiordaliso:#ABCDEF;
+    --cardo:#D8BFD8;
+    --celadon:#ACE1AF;
+
+
+}
+
+input,select,textarea{
+    padding: 8px;
+    border-width: 1px;
+    border-color: #b77653 ;
+    background-color:var(--cardo) ;
+    color: var(--white);
+    border-style: solid;
+    -moz-border-radius: 0;
+    box-shadow: 0 0 10px rgba(212,212,212,.54);
+}
+input:focus, textarea:focus,select:focus{
+    outline: none;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+.hide{
+    display: none; !important;  /*per dare la priorità assoluta*/
+}
+.grid-x{/*orientato verso le righe*/
+    display: flex;
+    flex-flow: row wrap; /*modello di impaginazione dinamico*/
+}
+.grid-y{/*orientato verso le colonne*/
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.grid-inline{
+    display: inline-flex;
+}
+.justify-center{/*centrare gli elementi sull'asse principale*/
+    justify-content: center;
+
+}
+.align-center{/*allinea in base all'asse perpendicolare*/
+    align-items: center;
+}
+.cell{
+    flex-basis: 100%;
+}
+.field{ /*wrapper, in modo che scali alla grandezza del container*/
+    display: inline-flex;
+    align-items: center;
+}
+
+.field>input,.field>select.field>textarea{
+    width: 100%;
+}
+
+.field>input[disabled],.field>select[disabled],.field>textarea[disabled]{
+    background-color: var(--albicocca);
+}
+
+.bnt{
+    padding: 8px;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+button.primary{
+    background-color: var(--albicocca);
+    color: var(--white);
+}
+button.primary:hover{
+    filter: brightness(110%);
+}
+.table{
+    border-collapse: collapse;
+    background-color: var(--albicocca);
+}
+.table>thead{
+    visibility: hidden;
+}
+.table tr{
+    border: 1px solid var(--white);
+    margin-bottom: .5rem;
+    padding: .5rem;
+    display: block;
+}
+
+.table>tbody td{
+    display: block;
+    border-bottom: 1px solid var(--white);
+    text-align: right;
+}
+
+.table>tbody td:before{
+    content: attr(data-head);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paginator{
+    list-style-type: none;
+}
+.paginator>li{
+    border: 1px solid;
+    padding: .5rem;
+}
+
+.paginator>li>a{
+    text-decoration: none;
+}
+@media screen and (min-width: 769px) {
+    .w10 {
+        flex-basis: 10%;
+    }
+
+    .w80 {
+        flex-basis: 80%;
+    }
+
+    .w25 {
+        flex-basis: 25%;
+    }
+
+    .w40 {
+        flex-basis: 40%;
+    }
+
+    .w50 {
+        flex-basis: 50%;
+    }
+
+    .w75 {
+        flex-basis: 75%;
+    }
+
+    .w33 {
+        flex-basis: 33%;
+    }
+
+    .w100 {
+        flex-basis: 100%;
+    }
+
+    .table > thead {
+        visibility: visible;
+    }
+
+    .table tr {
+        display: table-row;
+    }
+
+    .table > tbody td {
+        display: table-cell;
+        text-align: center;
+    }
+
+    .table > tbody td:before {
+        content: "";
+        float: none;
+    }
+}

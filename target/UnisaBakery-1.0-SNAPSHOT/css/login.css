@@ -1,0 +1,52 @@
+body,html {
+    font-family: Arsenal,sans-serif;
+    background:radial-gradient(#cc977b, #b77653);}
+
+form {
+    background-color: #cc977b;
+    border: 3px solid #cc977b;
+    margin: 25px auto;
+    width: 270px;
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cc977b;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: #cc977b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+p.new{
+    float:right;
+    padding-top: 16px;
+}
+
+.container {
+    padding: 3px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+

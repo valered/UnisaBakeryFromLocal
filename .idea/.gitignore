@@ -1,0 +1,5 @@
+target
+.idea
+out
+lib
+src/main/webapp/WEB-INF/web.xml
