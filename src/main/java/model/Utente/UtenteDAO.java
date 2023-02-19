@@ -44,7 +44,7 @@ public class UtenteDAO {
             ResultSet set = ps.executeQuery();
             while(set.next()){
             utenteRitorno.setEmail(set.getString("email"));
-            System.out.println(utenteRitorno.getEmail());
+            //System.out.println(utenteRitorno.getEmail());
             utenteRitorno.setUsername(set.getString("Username"));
             utenteRitorno.setPsword(set.getString("Psword"));
             utenteRitorno.setIfAdmin(set.getBoolean("ifAdmin"));

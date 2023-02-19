@@ -35,7 +35,8 @@ public class ServletRegister extends HttpServlet {
         utente.setCap(cap);
         utente.setTelefono(telefono);
         utente.setIfAdmin(false);
-        System.out.println(utente.toString());}
+        //System.out.println(utente.toString());
+        }
         else if(user.isIfAdmin()){
             utente.setNome(nome);
             utente.setEmail(email);
@@ -46,7 +47,7 @@ public class ServletRegister extends HttpServlet {
             utente.setCap(cap);
             utente.setTelefono(telefono);
             utente.setIfAdmin(true);
-            System.out.println(utente.toString());
+            //System.out.println(utente.toString());
         }
 
 
@@ -54,24 +55,25 @@ public class ServletRegister extends HttpServlet {
         String address=null;
 
         if(utenteDAO.controllaEmail(utente)){
-            System.out.println("Sono entrata nell'if di controlla email");
+            //System.out.println("Sono entrato nell'if di controlla email");
             address="/views/EmailGiaInUso.jsp";
             System.out.println("email già presente in database");
         }else if(utenteDAO.controllaNomeUtente(utente)){
-            System.out.println("Sono entrata nell'if di controlla nome u");
+            //System.out.println("Sono entrato nell'if di controlla nome u");
             address="/views/nomeUtenteGiaInUso.jsp";
             System.out.println("nome utente già presente in database");
         }else{
             if(utenteDAO.insertUtente(utente)){
-                System.out.println("Sono entrata nell if dell'inserimento");
+                //System.out.println("Sono entrato nell if dell'inserimento");
                 System.out.println("Inserimento effettuato");
                 if(user.isIfAdmin()){
                     address="index.jsp";
                 }
-                address="/views/RegistrazioneEffettuata.jsp";
+                else
+                    address="/views/RegistrazioneEffettuata.jsp";
             }
             else{
-                System.out.println("Sono entrata nell else dell'inserimento");
+                //System.out.println("Sono entrato nell else dell'inserimento");
                 System.out.println("Inserimento NON effettuato");
                 address="/views/RegistrazioneNonEffettuata.jsp";
             }
@@ -79,8 +81,8 @@ public class ServletRegister extends HttpServlet {
 
 
         if(!utente.isIfAdmin()){
-        HttpSession session = request.getSession(true);
-        session.setAttribute("user", utente);}
+            HttpSession session = request.getSession(true);
+            session.setAttribute("user", utente);}
         RequestDispatcher requestDispatcher= request.getRequestDispatcher(address);
         requestDispatcher.forward(request, response);
 

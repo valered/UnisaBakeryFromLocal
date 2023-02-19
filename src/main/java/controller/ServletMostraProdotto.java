@@ -14,7 +14,7 @@ public class ServletMostraProdotto extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String codiceString = request.getParameter("codice");
-        System.out.println("In servlet mostra prodotto codice String:"+codiceString);
+        //System.out.println("In servlet mostra prodotto codice String:"+codiceString);
         if(codiceString!=null){
             int codideDolce = Integer.parseInt(codiceString);
             DolciDAO dolciDAO = new DolciDAO();

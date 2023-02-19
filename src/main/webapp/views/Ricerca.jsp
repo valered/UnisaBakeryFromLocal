@@ -1,11 +1,6 @@
-<%@ page import="model.Utente.Utente" %><%--
-  Created by IntelliJ IDEA.
-  User: Martina
-  Date: 13/09/2021
-  Time: 20:20
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="model.Utente.Utente" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:include page="./header.jsp"/>
 <html>
 <head>
     <title> RICERCA </title>
@@ -197,76 +192,6 @@
 
 </head>
 <body>
-
-<!------------------------------------ INIZIO MENU ----------------------------------------->
-<!-- visitatore (non loggato)-->
-<%if(user==null){%>
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="../immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <a href="Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a href="login.jsp" class="right">LOGIN - REGISTRATI <i class="fas fa-sign-in-alt" ></i> </a>
-</div>
-<%}
-else if(!user.isIfAdmin()){%>
-<!-- utente loggato-->
-
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="../immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <a href="./Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a class="right"> <div class="dropdown" >
-        <form action="../ServletLogout" method="get"> <button class="dropbtn" le="cursor: pointer">LOGOUT <i class="fas fa-sign-in-alt"  ></i>  </button>  </form>
-    </div>
-    </a>
-    <a href="mostraOrdiniUtente.jsp" class="right">VISUALIZZA ORDINI <i class="fas fa-list"></i></a>
-    <a href="ModificaAreaPersonale.jsp" class="right"><%=user.getUsername()%> <i class="far fa-user"></i></a>
-    <a href="VisualizzaCarrello.jsp" class="right" >CARRELLO <i class="fas fa-shopping-cart" ></i></a>
-</div>
-
-
-<%}else if(user.isIfAdmin()) {%>
-<!-- amministratore-->
-
-
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="../immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <!--<div class="dropdown">
-        <button class="dropbtn">IMPOSTAZIONI
-            <i class="fas fa-user-cog"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">MODIFICA DOLCI</a>
-            <a href="#">MODIFICA TIPOLOGIA</a>
-            <a href="#">MODIFICA CLIENTI</a>
-        </div> -->
-
-    <a href="./Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a href="#">BENVENUTO AMMINISTRATORE: <%=user.getUsername()%></a>
-    <a class="right"> <div class="dropdown" >
-        <form action="../ServletLogout" method="get"> <button class="dropbtn" le="cursor: pointer">LOGOUT <i class="fas fa-sign-in-alt"  ></i>  </button>  </form>
-    </div>
-    </a>
-</div>
-
-</div>
-<%}%> <!------------------------------------- FINE MENU E HEADER-------------------------------->
 
 <div>
 <h1 style="text-align: center">Cerca</h1>

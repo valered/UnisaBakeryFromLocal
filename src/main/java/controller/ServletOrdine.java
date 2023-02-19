@@ -27,7 +27,7 @@ public class ServletOrdine extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        System.out.println("Sono in servlet ordine");
+        //System.out.println("Sono in servlet ordine");
         Utente user = (Utente) request.getSession().getAttribute("user");
         /*-----------------CREO ORDINE ---------------------------------*/
         Ordine ordine = new Ordine();
@@ -39,7 +39,7 @@ public class ServletOrdine extends HttpServlet {
         ordine.setEmail(user.getEmail());
         int idOrdine =ordineDAO.contaOrdini() +1;
         ordine.setIdOrdine(idOrdine);
-        System.out.println("idordine " + idOrdine);
+        //System.out.println("idordine " + idOrdine);
 
         /*--------------------- RECUPERO IL CARRELLO DAL DB---------------------------*/
         CartItemDAO cartItemDAO = new CartItemDAO();
@@ -54,7 +54,7 @@ public class ServletOrdine extends HttpServlet {
         /*--------------------- CREO ORDINE-DOLCI PER OGNI ITEM----------------------*/
         if(ordineDAO.insertOrdine(ordine)) {
             if (carrello != null) {
-                System.out.println("Sono nell'if carrello!= null");
+                //System.out.println("Sono nell'if carrello!= null");
                 for (CartItem c : carrello) {
                     OrdineDolci ordineDolci = new OrdineDolci();
                     OrdineDolciDAO ordineDolciDAO = new OrdineDolciDAO();

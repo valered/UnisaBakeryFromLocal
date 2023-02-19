@@ -9,7 +9,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="finale" />
+    <list default="true" id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="finale">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ServletAggiungiProdottoAlCarrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ServletAggiungiProdottoAlCarrello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ServletMostraProdotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ServletMostraProdotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ServletOrdine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ServletOrdine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ServletRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ServletRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Utente/UtenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Utente/UtenteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/ModificaDolceAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/ModificaDolceAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/MostraClienti.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/MostraClienti.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/MostraDolci.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/MostraDolci.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/MostraOrdini.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/MostraOrdini.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/Ricerca.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/Ricerca.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/ShowProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/ShowProducts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/VisualizzaCarrello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/VisualizzaCarrello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/mostraOrdiniUtente.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/mostraOrdiniUtente.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/mostraProdotto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/mostraProdotto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletAggiungiProdottoAlCarrello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletAggiungiProdottoAlCarrello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletMostraProdotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletMostraProdotto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletOrdine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletOrdine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/controller/ServletRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/model/Utente/UtenteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/WEB-INF/classes/model/Utente/UtenteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ServletAggiungiProdottoAlCarrello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ServletAggiungiProdottoAlCarrello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ServletMostraProdotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ServletMostraProdotto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ServletOrdine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ServletOrdine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ServletRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ServletRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Utente/UtenteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Utente/UtenteDAO.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -277,7 +309,9 @@
       <workItem from="1676716204199" duration="359000" />
       <workItem from="1676716801420" duration="86000" />
       <workItem from="1676717205545" duration="762000" />
-      <workItem from="1676718047769" duration="1962000" />
+      <workItem from="1676718047769" duration="4082000" />
+      <workItem from="1676728876481" duration="11083000" />
+      <workItem from="1676800010272" duration="9750000" />
     </task>
     <task id="LOCAL-00001" summary="Prima condivisione">
       <created>1630622008038</created>
@@ -321,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676718841215</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="altri">
+      <created>1676720816516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676720816516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +398,8 @@
     <MESSAGE value="Pagina e servlet Login (da completare)&#10;Home amministratore (da completare)&#10;home loggato (da completare)&#10;jsp e servlet register (da rivedere da errori)" />
     <MESSAGE value="prova1" />
     <MESSAGE value="finale" />
-    <option name="LAST_COMMIT_MESSAGE" value="finale" />
+    <MESSAGE value="altri" />
+    <option name="LAST_COMMIT_MESSAGE" value="altri" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,6 +408,11 @@
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

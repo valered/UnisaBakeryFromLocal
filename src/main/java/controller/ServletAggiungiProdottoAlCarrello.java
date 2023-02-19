@@ -25,9 +25,9 @@ public class ServletAggiungiProdottoAlCarrello extends HttpServlet {
             requestDispatcher.forward(request, response);
         }
         else if(!user.isIfAdmin()){
-            System.out.println("Sono nel else if");
+            //System.out.println("Sono nel else if");
             String codiceString = request.getParameter("codiceDolce");
-            System.out.println(codiceString.getClass());
+            //System.out.println(codiceString.getClass());
             int codiceDolce = Integer.parseInt(codiceString);
             String quantitaString = request.getParameter("quantita");
             int quantita= Integer.parseInt(quantitaString);

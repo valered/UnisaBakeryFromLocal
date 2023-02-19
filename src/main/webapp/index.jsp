@@ -1,4 +1,5 @@
 <%@ page import="model.Utente.Utente" %>
+<jsp:include page="views/header.jsp"/>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,113 +58,11 @@
         }
     </style>
     <link rel="shortcut icon" href="immagini/Senzanome.png">
-    <%
-
-        Utente user=(Utente) request.getSession().getAttribute("user");
-        String context = request.getContextPath();
-        String home=context;
-    %>
-
-    <script src="https://kit.fontawesome.com/aafa5f65fa.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<!-- visitatore (non loggato)-->
-<%if(user==null){%>
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="views/ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <a href="views/Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a href="views/login.jsp" class="right">LOGIN - REGISTRATI <i class="fas fa-sign-in-alt" ></i> </a>
-</div>
-<%}
-else if(!user.isIfAdmin()){%>
-<!-- utente loggato-->
-
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="views/ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <a href="views/Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a class="right"> <div class="dropdown" >
-        <form action="ServletLogout" method="get"> <button class="dropbtn" le="cursor: pointer">LOGOUT <i class="fas fa-sign-in-alt"  ></i>  </button>  </form>
-    </div>
-    </a>
-    <a href="views/mostraOrdiniUtente.jsp" class="right">VISUALIZZA ORDINI <i class="fas fa-list"></i></a>
-    <a href="views/ModificaAreaPersonale.jsp" class="right"><%=user.getUsername()%> <i class="far fa-user"></i></a>
-    <a href="views/VisualizzaCarrello.jsp" class="right" >CARRELLO <i class="fas fa-shopping-cart" ></i></a>
-</div>
-
-
-<%}else if(user.isIfAdmin()) {%>
-<!-- amministratore-->
-
-
-<div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
-</div>
-<div class="navbar">
-    <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="views/ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-   <!-- <div class="dropdown">
-        <button class="dropbtn">IMPOSTAZIONI
-            <i class="fas fa-user-cog"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">MODIFICA DOLCI</a>
-            <a href="#">MODIFICA TIPOLOGIA</a>
-            <a href="#">MODIFICA CLIENTI</a>
-        </div>
-    </div>-->
-    <a href="views/Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a href="#">BENVENUTO AMMINISTRATORE: <%=user.getUsername()%></a>
-    <a class="right"> <div class="dropdown" >
-        <form action="ServletLogout" method="get"> <button class="dropbtn" le="cursor: pointer">LOGOUT <i class="fas fa-sign-in-alt"  ></i>  </button>  </form>
-    </div>
-    </a>
-</div>
-
-<div class="container">
-    <div class="product-card">
-
-
-    <div class="button">
-    <div class= "button-layer">
-    <a href="views/MostraClienti.jsp"> <button class="classe-bottone">MOSTRA CLIENTI <br><br></button></a>
-    </div>
-    </div>
-
-    <div class="button">
-    <div class= "button-layer">
-    <a href="views/MostraOrdini.jsp"> <button class="classe-bottone">MOSTRA ORDINI<br><br></button></a>
-    </div>
-    </div>
-
-     <div class="button">
-     <div class= "button-layer">
-     <a href="views/MostraDolci.jsp"> <button class="classe-bottone">MOSTRA DOLCI<br><br></button></a>
-     </div>
-     </div>
-
-
-    </div>
-</div>
-
-<%}%>
-
 
 <!-- home page di visitatore e utente loggato-->
-<% if(user==null||!user.isIfAdmin()){%>
+<%if(((Utente)session.getAttribute("user"))==null || !((Utente)session.getAttribute("user")).isIfAdmin()){%>
+
 <div class="row">
 
     <div class="demo coursemeal">
@@ -208,6 +107,34 @@ else if(!user.isIfAdmin()){%>
     </div>
 </div>
 
+<!-- home page di amministratore-->
+<%} else if(((Utente)session.getAttribute("user")).isIfAdmin()){%>
+<div class="container">
+    <div class="product-card">
+
+
+        <div class="button">
+            <div class= "button-layer">
+                <a href="views/MostraClienti.jsp"> <button class="classe-bottone">MOSTRA CLIENTI <br><br></button></a>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class= "button-layer">
+                <a href="views/MostraOrdini.jsp"> <button class="classe-bottone">MOSTRA ORDINI<br><br></button></a>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class= "button-layer">
+                <a href="views/MostraDolci.jsp"> <button class="classe-bottone">MOSTRA DOLCI<br><br></button></a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<%}%>
 
 <div class="footer">
     <p>SEGUICI SUI NOSTRI PROFILI SOCIAL!</p>
@@ -221,7 +148,8 @@ else if(!user.isIfAdmin()){%>
 
 </div>
 
-<%}%> <!--fine home page visitatori o utenti-->
+
+
 
 </body>
 </html>
