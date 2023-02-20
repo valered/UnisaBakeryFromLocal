@@ -3,3 +3,4 @@ target
 out
 lib
 src/main/webapp/WEB-INF/web.xml
+src/main/java/model/ConPool.java

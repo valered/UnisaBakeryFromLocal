@@ -10,13 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="finale">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/UnisaBakery_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/UnisaBakery_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/UnisaBakery_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/UnisaBakery_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/gametoday.j_rRPA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/giochiegiocattoli.r-nOWA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb0e6101-c102-46b4-9efa-d01b035cdf0d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/immagini/Senzanome.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/immagini/Senzanome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/immagini/Senzanome.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/immagini/Senzanome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ConPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ConPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/ConPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ConPool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +76,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProgettoTSW" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.30804598" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\martina\Desktop\TSWProjects\WhiteWings2\src\main\webapp\css" />
@@ -374,7 +370,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

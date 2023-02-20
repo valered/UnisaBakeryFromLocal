@@ -17,10 +17,10 @@ public class ConPool {
     public static Connection getConnection() throws SQLException {
         if (datasource == null) {
             PoolProperties p = new PoolProperties();
-            p.setUrl("jdbc:mysql://127.0.0.1:3306/pasticceria?serverTimezone=" + TimeZone.getDefault().getID());
+            p.setUrl("jdbc:mysql://localhost:3306/pasticceria?serverTimezone=" + TimeZone.getDefault().getID());
             p.setDriverClassName("com.mysql.cj.jdbc.Driver");
             p.setUsername("root");
-            p.setPassword("valentina");
+            p.setPassword("admin");
             p.setMaxActive(100);
             p.setInitialSize(10);
             p.setMinIdle(10);
