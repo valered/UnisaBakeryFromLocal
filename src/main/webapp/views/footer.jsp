@@ -1,4 +1,8 @@
-<div class="footer">
+
+
+
+
+    <div class="footer">
     <p>SEGUICI SUI NOSTRI PROFILI SOCIAL!</p>
 
     <div class="footer-social-links">
@@ -8,4 +12,4 @@
         <a href="#" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
 
-</div>
+    </div>

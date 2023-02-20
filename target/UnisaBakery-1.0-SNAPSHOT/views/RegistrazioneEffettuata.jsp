@@ -112,7 +112,7 @@
 </style>
 <body>
 <h1 style="color: pink">Registrazione avvenuta con successo</h1>
-<a href="index.jsp"><button class="ui-button">Torna alla Home</button></a>
+<a href="../index.jsp"><button class="ui-button">Torna alla Home</button></a>
 
 </body>
 </html>

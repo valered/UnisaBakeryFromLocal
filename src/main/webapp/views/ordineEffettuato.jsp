@@ -23,7 +23,7 @@
 <div class="container">
     <h2> ORDINE EFFETTUATO!</h2>
     <p>Puoi controllare il tuo ordine il visualizza ordini</p>
-    <p>TORNA ALLA <a href="index.jsp">HOME</a></p>
+    <p>TORNA ALLA <a href="../index.jsp">HOME</a></p>
 </div>
 
 </body>
