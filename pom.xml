@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>WhiteWings2</artifactId>
+    <artifactId>UnisaBakery</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>WhiteWings2</name>
+    <name>UnisaBakery</name>
     <packaging>war</packaging>
 
     <properties>

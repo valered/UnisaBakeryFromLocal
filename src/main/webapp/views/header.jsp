@@ -16,22 +16,22 @@
 <!-- visitatore (non loggato)-->
 <%if(user==null){%>
 <div class="header">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
+    <img src="${pageContext.request.contextPath}/immagini/Senzanome.png" border="0" class="responsive-image">
 </div>
 <div class="navbar">
     <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
-    <a href="views/ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
-    <a href="views/ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
-    <a href="views/Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
-    <a href="views/login.jsp" class="right">LOGIN - REGISTRATI <i class="fas fa-sign-in-alt" ></i> </a>
+    <a href="${pageContext.request.contextPath}/views/ShowProducts.jsp?tipologia=Biscotti">BISCOTTI <i class="fas fa-cookie"> </i></a>
+    <a href="${pageContext.request.contextPath}/views/ShowProducts.jsp?tipologia=Torta">TORTE <i class='fas fa-cheese'></i> </a>
+    <a href="${pageContext.request.contextPath}/views/ShowProducts.jsp?tipologia=*">DOLCI</a><i class="fas fa-pie"></i>
+    <a href="${pageContext.request.contextPath}/views/Ricerca.jsp"><button type="submit"><i class="fa fa-search"></i></button></a>
+    <a href="${pageContext.request.contextPath}/views/login.jsp" class="right">LOGIN - REGISTRATI <i class="fas fa-sign-in-alt" ></i> </a>
 </div>
 <%}
 else if(!user.isIfAdmin()){%>
 <!-- utente loggato-->
 
 <div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
+    <img src="${pageContext.request.contextPath}/immagini/Senzanome.png" border="0" class="responsive-image">
 </div>
 <div class="navbar">
     <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>
@@ -52,7 +52,7 @@ else if(!user.isIfAdmin()){%>
 <!-- amministratore-->
 <%}else if(user.isIfAdmin()) {%>
 <div class="header" style="background-image:url(/immagini/logo.png)">
-    <img src="immagini/Senzanome.png" border="0" class="responsive-image">
+    <img src="${pageContext.request.contextPath}/immagini/Senzanome.png" border="0" class="responsive-image">
 </div>
 <div class="navbar">
     <a href="<%=home%>">HOME <i class="fas fa-home"></i></a>

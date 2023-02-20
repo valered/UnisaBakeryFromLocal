@@ -14,7 +14,7 @@
         margin: 25px auto;
         width: 250px;}
     </style>
-    <link rel="shortcut icon" href="immagini/logoNEW.png">
+    <link rel="shortcut icon" href="../immagini/Senzanome.png">
     <%
 
         Utente user=(Utente) request.getSession().getAttribute("user");
