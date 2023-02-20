@@ -60,9 +60,9 @@
     <link rel="shortcut icon" href="immagini/Senzanome.png">
 </head>
 
-<!-- home page di visitatore e utente loggato-->
-<%if(((Utente)session.getAttribute("user"))==null || !((Utente)session.getAttribute("user")).isIfAdmin()){%>
 
+<%if(((Utente)session.getAttribute("user"))==null || !((Utente)session.getAttribute("user")).isIfAdmin()){%>
+<!-- home page di visitatore e utente loggato-->
 <div class="row">
 
     <div class="demo coursemeal">
@@ -107,8 +107,9 @@
     </div>
 </div>
 
-<!-- home page di amministratore-->
+
 <%} else if(((Utente)session.getAttribute("user")).isIfAdmin()){%>
+<!-- home page di amministratore-->
 <div class="container">
     <div class="product-card">
 
@@ -135,21 +136,9 @@
     </div>
 </div>
 <%}%>
-
-<div class="footer">
-    <p>SEGUICI SUI NOSTRI PROFILI SOCIAL!</p>
-
-    <div class="footer-social-links">
-        <a href="#" title="Facebook" ><i class="fa fa-facebook"></i></a>
-        <a href="#" title="Twitter" ><i class="fa fa-twitter"></i></a>
-        <a href="#" title="Instagram" ><i class="fab fa-instagram"></i></a>
-        <a href="#" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
-
-</div>
-
-
-
+<footer>
+    <%@include file="./views/footer.jsp"%>
+</footer>
 
 </body>
 </html>
