@@ -10,13 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b033d48c-9c83-49dd-bf27-326d773d94cb" name="Default Changelist" comment="finale">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/immagini/Senzanome.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/immagini/Senzanome.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/immagini/Senzanome.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/immagini/Senzanome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/UnisaBakery-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,13 +103,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,7 +289,8 @@
       <workItem from="1676728876481" duration="11083000" />
       <workItem from="1676800010272" duration="9750000" />
       <workItem from="1676809860551" duration="378000" />
-      <workItem from="1676890323819" duration="865000" />
+      <workItem from="1676890323819" duration="1411000" />
+      <workItem from="1676891781790" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="Prima condivisione">
       <created>1630622008038</created>
@@ -346,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676810220436</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="altro">
+      <created>1676891527398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676891527398</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +393,8 @@
     <MESSAGE value="finale" />
     <MESSAGE value="altri" />
     <MESSAGE value="Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header" />
+    <MESSAGE value="altro" />
+    <option name="LAST_COMMIT_MESSAGE" value="altro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -393,11 +403,6 @@
           <properties class="java.sql.SQLException" package="java.sql" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>77</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
